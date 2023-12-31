@@ -1,0 +1,14 @@
+# .gitignore
+
+.vscode
+
+# Ignore node_modules directory
+node_modules/
+
+# JavaScript and sourcemap files
+*.js
+*.map
+
+# Puzzle inputs
+input.txt
+
