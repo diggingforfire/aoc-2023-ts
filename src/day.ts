@@ -13,7 +13,7 @@ abstract class Day {
         return this.solvePartTwo(input);
     }
 
-    async getInput(): Promise   <string> {
+    async getInput(): Promise<string> {
         const input = await fs.promises.readFile(path.join(__dirname, "days", this.constructor.name.slice(-2), 'input.txt'), 'utf-8');
         return input;
     }
