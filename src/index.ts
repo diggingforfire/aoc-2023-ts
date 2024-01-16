@@ -5,6 +5,7 @@ import Day04 from "./days/04";
 import Day05 from "./days/05";
 import Day06 from "./days/06";
 import Day07 from "./days/07";
+import Day08 from "./days/08";
 
 declare global {
   interface String {
@@ -36,7 +37,10 @@ async function main() {
   // console.log(await Day06.partTwo());
 
   //console.log(await Day07.partOne());
-  console.log(await Day07.partTwo());
+  //console.log(await Day07.partTwo());
+
+  console.log(await Day08.partOne());
+  console.log(await Day08.partTwo());
 }
 
 main(); 
